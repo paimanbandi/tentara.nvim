@@ -18,7 +18,7 @@ theme.load_syntax = function()
 		DiffDelete = { nil, c.cDiffRedLight, 'none', nil},
 		DiffText = { nil, c.cDiffRedLight, 'none', nil},
 		EndOfBuffer = { c.cBack, nil, 'none', nil},
-		ErrorMsg = { c.cThunderbird, c.cBack, 'none', nil},
+		ErrorMsg = { c.cArmyBrown, c.cBack, 'none', nil},
 		VertSplit = { c.cSplitDark, c.cBack, 'none', nil},
 		Folded = { c.cLeftLight, c.cLeftDark, 'underline', nil},
 		FoldColumn = { c.cLineNumber, c.cBack, 'none', nil},
@@ -55,13 +55,13 @@ theme.load_syntax = function()
 		Float = { c.cLightGreen, nil, 'none', nil},
 		Identifier = { c.cCurlyWillow, nil, 'none', nil},
 		Function = { c.cTenne, nil, 'none', nil},
-		Statement = { c.cThunderbird, nil, 'bold', nil}, -- return
-		Conditional = { c.cThunderbird, nil, 'none', nil}, -- if-else
-		Repeat = { c.cThunderbird, nil, 'none', nil}, -- for
+		Statement = { c.cArmyBrown, nil, 'bold', nil}, -- return
+		Conditional = { c.cArmyBrown, nil, 'none', nil}, -- if-else
+		Repeat = { c.cArmyBrown, nil, 'none', nil}, -- for
 		Label = { c.cTapestry, nil, 'none', nil},
 		Operator = { c.cCurlyWillow, nil, 'none', nil},
 		Keyword = { c.cMediumOrchid, nil, 'none', nil},
-		Exception = { c.cThunderbird, nil, 'none', nil}, -- try-catch
+		Exception = { c.cArmyBrown, nil, 'none', nil}, -- try-catch
 		PreProc = { c.cTapestry, nil, 'none', nil},
 		Include = { c.cMediumOrchid, nil, 'none', nil}, -- import
 		Define = { c.cTapestry, nil, 'none', nil},
@@ -78,12 +78,12 @@ theme.load_syntax = function()
 		Underlined = { c.cNone, nil, 'underline', nil},
 		Conceal =  {c.cPeridot, c.cBack,  'none', nil},
 		Ignore = { c.cCurlyWillow, nil, 'none', nil},
-		Error = { c.cThunderbird, c.cBack, 'undercurl', c.cThunderbird},
+		Error = { c.cArmyBrown, c.cBack, 'undercurl', c.cArmyBrown},
 		Todo = { c.cBack, c.cTapestry, 'bold', nil},
-		SpellBad = { c.cThunderbird, c.cBack, 'undercurl', c.cThunderbird},
-		SpellCap = { c.cThunderbird, c.cBack, 'undercurl', c.cThunderbird},
-		SpellRare = { c.cThunderbird, c.cBack, 'undercurl', c.cThunderbird},
-		SpellLocal = { c.cThunderbird, c.cBack, 'undercurl', c.cThunderbird},
+		SpellBad = { c.cArmyBrown, c.cBack, 'undercurl', c.cArmyBrown},
+		SpellCap = { c.cArmyBrown, c.cBack, 'undercurl', c.cArmyBrown},
+		SpellRare = { c.cArmyBrown, c.cBack, 'undercurl', c.cArmyBrown},
+		SpellLocal = { c.cArmyBrown, c.cBack, 'undercurl', c.cArmyBrown},
 
 		-- Markdown
 		markdownBold = { c.cPictonBlue, nil, 'bold', nil},
@@ -172,9 +172,9 @@ theme.load_syntax = function()
 		gitcommitComment = { c.cGray, nil, 'none', nil},
 		gitcommitSelectedType = { c.cJapaneseLaurel, nil, 'none', nil},
 		gitcommitSelectedFile = { c.cJapaneseLaurel, nil, 'none', nil},
-		gitcommitDiscardedType = { c.cThunderbird, nil, 'none', nil},
-		gitcommitDiscardedFile = { c.cThunderbird, nil, 'none', nil},
-		gitcommitOverflow = { c.cThunderbird, nil, 'none', nil},
+		gitcommitDiscardedType = { c.cArmyBrown, nil, 'none', nil},
+		gitcommitDiscardedFile = { c.cArmyBrown, nil, 'none', nil},
+		gitcommitOverflow = { c.cArmyBrown, nil, 'none', nil},
 		gitcommitSummary = { c.cTapestry, nil, 'none', nil},
 		gitcommitBlank = { c.cTapestry, nil, 'none', nil},
 
@@ -201,10 +201,10 @@ theme.load_syntax = function()
 		-- Git Signs
 		GitSignsAdd = { c.cJapaneseLaurel, nil, 'none', nil},
 		GitSignsChange = { c.cYellow, nil, 'none', nil},
-		GitSignsDelete = { c.cThunderbird, nil, 'none', nil},
+		GitSignsDelete = { c.cArmyBrown, nil, 'none', nil},
 		GitSignsAddLn = { c.cBack, c.cJapaneseLaurel, 'none', nil},
 		GitSignsChangeLn = { c.cBack, c.cYellow, 'none', nil},
-		GitSignsDeleteLn = { c.cBack, c.cThunderbird, 'none', nil},
+		GitSignsDeleteLn = { c.cBack, c.cArmyBrown, 'none', nil},
 
 		-- NvimTree
 		NvimTreeRootFolder = { c.cMediumOrchid, nil, 'bold', nil},
@@ -221,14 +221,14 @@ theme.load_syntax = function()
 		NvimTreeOpenedFolderName = { nil, c.cLeftDark, 'none', nil},
 
 		-- IndentBlankLine
-		IndentBlanklineContextChar = { c.cThunderbird, nil, "nocombine", nil},
+		IndentBlanklineContextChar = { c.cArmyBrown, nil, "nocombine", nil},
 
 		-- LSP
-		LspDiagnosticsDefaultError = { c.cThunderbird, nil, 'none', nil},
+		LspDiagnosticsDefaultError = { c.cArmyBrown, nil, 'none', nil},
 		LspDiagnosticsDefaultWarning = { c.cYellow, nil, 'none', nil},
 		LspDiagnosticsDefaultInformation = { c.cPictonBlue, nil, 'none', nil},
 		LspDiagnosticsDefaultHint = { c.cPictonBlue, nil, 'none', nil},
-		LspDiagnosticsUnderlineError = { c.cThunderbird, nil, 'undercurl', nil},
+		LspDiagnosticsUnderlineError = { c.cArmyBrown, nil, 'undercurl', nil},
 		LspDiagnosticsUnderlineWarning = { c.cYellow, nil, 'undercurl', nil},
 		LspDiagnosticsUnderlineInformation = { c.cPictonBlue, nil, 'undercurl', nil},
 		LspDiagnosticsUnderlineHint = { c.cPictonBlue, nil, 'undercurl', nil},

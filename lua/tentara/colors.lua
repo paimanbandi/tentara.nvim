@@ -51,7 +51,8 @@ local generate = function ()
     cTapestry = '#b16286',
     cUiBlue = '#0451A5',
     cTenne = '#D65D0E',
-    cMediumOrchid = '#BA55D3'
+    cMediumOrchid = '#BA55D3',
+    cArmyBrown = '#7d5b3f'
   }
 	return colors
 end
