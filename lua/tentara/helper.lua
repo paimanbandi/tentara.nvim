@@ -18,7 +18,7 @@ helper.load = function()
 
 	vim.o.background = "dark"
 	vim.o.termguicolors = true
-	vim.g.colors_name = "retina"
+	vim.g.colors_name = "tentara"
 
 	local syntax = theme.load_syntax()
 
