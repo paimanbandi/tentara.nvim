@@ -1,2 +1,2 @@
-local retina = require("retina")
-retina.set()
+local tentara = require("tentara")
+tentara.set()
