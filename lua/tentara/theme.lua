@@ -18,7 +18,7 @@ theme.load_syntax = function()
 		DiffDelete = { nil, c.cDiffRedLight, 'none', nil},
 		DiffText = { nil, c.cDiffRedLight, 'none', nil},
 		EndOfBuffer = { c.cBack, nil, 'none', nil},
-		ErrorMsg = { c.cArmyBrown, c.cBack, 'none', nil},
+		ErrorMsg = { c.cJapaneseLaurel, c.cBack, 'none', nil},
 		VertSplit = { c.cSplitDark, c.cBack, 'none', nil},
 		Folded = { c.cLeftLight, c.cLeftDark, 'underline', nil},
 		FoldColumn = { c.cLineNumber, c.cBack, 'none', nil},
@@ -35,7 +35,7 @@ theme.load_syntax = function()
 		PmenuThumb = { nil, c.cPopupFront, 'none', nil},
 		Question = { c.cPictonBlue, c.cBack, 'none', nil},
 		Search = { c.cNone, c.cSearch, 'none', nil},
-		SpecialKey = { c.cMediumOrchid, c.cNone, 'none', nil},
+		SpecialKey = { c.cViolet, c.cNone, 'none', nil},
 		StatusLine = { c.cCurlyWillow, c.cLeftMid, 'none', nil},
 		StatusLineNC = { c.cCurlyWillow, c.cLeftDark, 'none', nil},
 		TabLine = { c.cCurlyWillow, c.cTabOther, 'none', nil},
@@ -55,13 +55,13 @@ theme.load_syntax = function()
 		Float = { c.cLightGreen, nil, 'none', nil},
 		Identifier = { c.cCurlyWillow, nil, 'none', nil},
 		Function = { c.cTenne, nil, 'none', nil},
-		Statement = { c.cArmyBrown, nil, 'bold', nil}, -- return
-		Conditional = { c.cArmyBrown, nil, 'none', nil}, -- if-else
-		Repeat = { c.cArmyBrown, nil, 'none', nil}, -- for
+		Statement = { c.cJapaneseLaurel, nil, 'bold', nil}, -- return
+		Conditional = { c.cJapaneseLaurel, nil, 'none', nil}, -- if-else
+		Repeat = { c.cJapaneseLaurel, nil, 'none', nil}, -- for
 		Label = { c.cTapestry, nil, 'none', nil},
 		Operator = { c.cCurlyWillow, nil, 'none', nil},
-		Keyword = { c.cMediumOrchid, nil, 'none', nil},
-		Exception = { c.cArmyBrown, nil, 'none', nil}, -- try-catch
+		Keyword = { c.cViolet, nil, 'none', nil}, -- async-await
+		Exception = { c.cJapaneseLaurel, nil, 'none', nil}, -- try-catch
 		PreProc = { c.cTapestry, nil, 'none', nil},
 		Include = { c.cMediumOrchid, nil, 'none', nil}, -- import
 		Define = { c.cTapestry, nil, 'none', nil},
@@ -78,12 +78,12 @@ theme.load_syntax = function()
 		Underlined = { c.cNone, nil, 'underline', nil},
 		Conceal =  {c.cPeridot, c.cBack,  'none', nil},
 		Ignore = { c.cCurlyWillow, nil, 'none', nil},
-		Error = { c.cArmyBrown, c.cBack, 'undercurl', c.cArmyBrown},
+		Error = { c.cJapaneseLaurel, c.cBack, 'undercurl', c.cJapaneseLaurel},
 		Todo = { c.cBack, c.cTapestry, 'bold', nil},
-		SpellBad = { c.cArmyBrown, c.cBack, 'undercurl', c.cArmyBrown},
-		SpellCap = { c.cArmyBrown, c.cBack, 'undercurl', c.cArmyBrown},
-		SpellRare = { c.cArmyBrown, c.cBack, 'undercurl', c.cArmyBrown},
-		SpellLocal = { c.cArmyBrown, c.cBack, 'undercurl', c.cArmyBrown},
+		SpellBad = { c.cJapaneseLaurel, c.cBack, 'undercurl', c.cJapaneseLaurel},
+		SpellCap = { c.cJapaneseLaurel, c.cBack, 'undercurl', c.cJapaneseLaurel},
+		SpellRare = { c.cJapaneseLaurel, c.cBack, 'undercurl', c.cJapaneseLaurel},
+		SpellLocal = { c.cJapaneseLaurel, c.cBack, 'undercurl', c.cJapaneseLaurel},
 
 		-- Markdown
 		markdownBold = { c.cPictonBlue, nil, 'bold', nil},
@@ -172,9 +172,9 @@ theme.load_syntax = function()
 		gitcommitComment = { c.cGray, nil, 'none', nil},
 		gitcommitSelectedType = { c.cJapaneseLaurel, nil, 'none', nil},
 		gitcommitSelectedFile = { c.cJapaneseLaurel, nil, 'none', nil},
-		gitcommitDiscardedType = { c.cArmyBrown, nil, 'none', nil},
-		gitcommitDiscardedFile = { c.cArmyBrown, nil, 'none', nil},
-		gitcommitOverflow = { c.cArmyBrown, nil, 'none', nil},
+		gitcommitDiscardedType = { c.cJapaneseLaurel, nil, 'none', nil},
+		gitcommitDiscardedFile = { c.cJapaneseLaurel, nil, 'none', nil},
+		gitcommitOverflow = { c.cJapaneseLaurel, nil, 'none', nil},
 		gitcommitSummary = { c.cTapestry, nil, 'none', nil},
 		gitcommitBlank = { c.cTapestry, nil, 'none', nil},
 
@@ -201,10 +201,10 @@ theme.load_syntax = function()
 		-- Git Signs
 		GitSignsAdd = { c.cJapaneseLaurel, nil, 'none', nil},
 		GitSignsChange = { c.cYellow, nil, 'none', nil},
-		GitSignsDelete = { c.cArmyBrown, nil, 'none', nil},
+		GitSignsDelete = { c.cJapaneseLaurel, nil, 'none', nil},
 		GitSignsAddLn = { c.cBack, c.cJapaneseLaurel, 'none', nil},
 		GitSignsChangeLn = { c.cBack, c.cYellow, 'none', nil},
-		GitSignsDeleteLn = { c.cBack, c.cArmyBrown, 'none', nil},
+		GitSignsDeleteLn = { c.cBack, c.cJapaneseLaurel, 'none', nil},
 
 		-- NvimTree
 		NvimTreeRootFolder = { c.cMediumOrchid, nil, 'bold', nil},
@@ -221,14 +221,14 @@ theme.load_syntax = function()
 		NvimTreeOpenedFolderName = { nil, c.cLeftDark, 'none', nil},
 
 		-- IndentBlankLine
-		IndentBlanklineContextChar = { c.cArmyBrown, nil, "nocombine", nil},
+		IndentBlanklineContextChar = { c.cJapaneseLaurel, nil, "nocombine", nil},
 
 		-- LSP
-		LspDiagnosticsDefaultError = { c.cArmyBrown, nil, 'none', nil},
+		LspDiagnosticsDefaultError = { c.cJapaneseLaurel, nil, 'none', nil},
 		LspDiagnosticsDefaultWarning = { c.cYellow, nil, 'none', nil},
 		LspDiagnosticsDefaultInformation = { c.cPictonBlue, nil, 'none', nil},
 		LspDiagnosticsDefaultHint = { c.cPictonBlue, nil, 'none', nil},
-		LspDiagnosticsUnderlineError = { c.cArmyBrown, nil, 'undercurl', nil},
+		LspDiagnosticsUnderlineError = { c.cJapaneseLaurel, nil, 'undercurl', nil},
 		LspDiagnosticsUnderlineWarning = { c.cYellow, nil, 'undercurl', nil},
 		LspDiagnosticsUnderlineInformation = { c.cPictonBlue, nil, 'undercurl', nil},
 		LspDiagnosticsUnderlineHint = { c.cPictonBlue, nil, 'undercurl', nil},
