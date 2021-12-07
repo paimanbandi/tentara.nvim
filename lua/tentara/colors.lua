@@ -36,7 +36,7 @@ local generate = function ()
     cSearch = '#264F78',
 
     cGray = '#808080',
-    cViolet = '#646695',
+    cViolet = '#9a5cce',
     cPictonBlue = '#569CD6',
     cCurlyWillow = '#b3a589',
     cJapaneseLaurel = '#358A43',
@@ -51,8 +51,7 @@ local generate = function ()
     cTapestry = '#b16286',
     cUiBlue = '#0451A5',
     cTenne = '#D65D0E',
-    cMediumOrchid = '#BA55D3',
-    cArmyBrown = '#7d5b3f'
+    cMediumOrchid = '#BA55D3'
   }
 	return colors
 end

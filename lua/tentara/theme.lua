@@ -53,20 +53,20 @@ theme.load_syntax = function()
 		Number = { c.cLightGreen, nil, 'none', nil},
 		Boolean = { c.cPictonBlue, nil, 'none', nil},
 		Float = { c.cLightGreen, nil, 'none', nil},
-		Identifier = { c.cCurlyWillow, nil, 'none', nil},
+		Identifier = { c.cPictonBlue, nil, 'none', nil},
 		Function = { c.cTenne, nil, 'none', nil},
 		Statement = { c.cThunderbird, nil, 'bold', nil}, -- return
 		Conditional = { c.cThunderbird, nil, 'none', nil}, -- if-else
 		Repeat = { c.cThunderbird, nil, 'none', nil}, -- for
 		Label = { c.cTapestry, nil, 'none', nil},
 		Operator = { c.cCurlyWillow, nil, 'none', nil},
-		Keyword = { c.cViolet, nil, 'none', nil}, -- async-await
+		Keyword = { c.cViolet, nil, 'none', nil}, -- async-await, required
 		Exception = { c.cThunderbird, nil, 'none', nil}, -- try-catch
 		PreProc = { c.cTapestry, nil, 'none', nil},
 		Include = { c.cMediumOrchid, nil, 'none', nil}, -- import
 		Define = { c.cTapestry, nil, 'none', nil},
 		Macro = { c.cTapestry, nil, 'none', nil},
-		Type = { c.cJapaneseLaurel, nil, 'none', nil}, -- class name
+		Type = { c.cJapaneseLaurel, nil, 'none', nil}, -- class, data type
 		StorageClass = { c.cPictonBlue, nil, 'none', nil}, -- const, let, var
 		Structure = { c.cPictonBlue, nil, 'none', nil},
 		Typedef = { c.cPictonBlue, nil, 'none', nil},
@@ -164,6 +164,10 @@ theme.load_syntax = function()
     jsNull = { c.cGray, nil, 'none', nil },
     jsUndefined = { c.cGray, nil, 'none', nil },
     jsNoise = { c.cViolet, nil, 'none', nil },
+
+    -- Haskell
+    haskellTypeRoles = { c.cPictonBlue, nil, 'none', nil},
+    haskellNumber = { c.cPictonBlue, nil, 'none', nil},
 
 		-- Git
 		gitcommitHeader = { c.cGray, nil, 'none', nil},
